@@ -1,7 +1,7 @@
 <html>
 
 	<?PHP
-	include ("_core.php"); 
+	//include ("_core.php"); 
 	include("head.php"); 
 	?>
 	
@@ -18,8 +18,6 @@
 				<td>
 				
 					<center>
-						<h3>Главная страница немного сломана и информация на ней не достоверня .-.</h3>
-						<h3>Хотя все равно это некому читать...</h3>
 						<form name="f1" action='auth.php' method='POST' id='f_auth'>
 							<input type='text' name='login' placeholder="Логин"><br>
 							<input type='password' name='password' placeholder="Пароль"><br>
